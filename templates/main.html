@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Paystub Companion
+    </title>
+    <link rel="stylesheet" href="static/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300,700');
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <h1>Paystub Companion</h1>
+    <h3>Your solution to quickly and effectively sending out paystubs to the employees in your buisness</h3>
+    <br>
+    <form method="post">
+        <button name='settings' value='settings' class='settings'>SETTINGS</button>
+        <div class="tbl-header">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>income YTD</th>
+                        <th>Print stub</th>
+                        <th>Add Income</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="tbl-content">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                    {{tableInfo}}
+                </tbody>
+            </table>
+        </div>
+            <button name='create' value='create' class='create'>CREATE EMPLOYEE</button>
+    </form>
+
+</body>
+
+</html>
