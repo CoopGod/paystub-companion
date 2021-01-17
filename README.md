@@ -1,5 +1,4 @@
 # Paystub Companion
----
 ## Inspiration
 The other day my paycheck was sent in with my taxes charged much higher than they were supposed to be. I thought that there should be an easily accessible system allowing for fewer errors.
 ## What it does
