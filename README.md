@@ -6,3 +6,4 @@ A website that allows for easy updating and organizing of employee earnings, wit
 ## How we built it
 Using python with Flask for the backend, HTML+CSS for the frontend, and SQL for the database
 
+Commits made up until 2021/01/17 at 12:00 MST for HackEd2021
